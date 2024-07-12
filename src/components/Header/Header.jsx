@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import useIsMobile from "/src/hooks/useIsMobile";
 import { Drawer, Select, Space } from "antd";
@@ -16,6 +16,11 @@ const navItems = [
   { path: "projects", title: t("header.navigation.projects") },
   { path: "contacts", title: t("header.navigation.contacts") },
 ];
+
+const languages = {
+  en: { value: "en", label: <img width={22} src={flagUK} alt="en" /> },
+  arm: { value: "arm", label: <img width={22} src={flagArm} alt="arm" /> },
+};
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -42,6 +47,8 @@ const Header = () => {
     i18next.changeLanguage(val);
     window.location.reload();
   };
+
+  const defaultLanguage = languages[i18next.language] ? i18next.language : "en";
 
   return (
     <header className="header">
@@ -91,13 +98,10 @@ const Header = () => {
       )}
       <Select
         onChange={(val) => changeLanguage(val)}
-        defaultValue={i18next.language || "en"}
+        defaultValue={languages[defaultLanguage].value}
         style={{ width: "auto" }}
         size="small"
-        options={[
-          { value: "en", label: <img width={22} src={flagUK} alt="en" /> },
-          { value: "arm", label: <img width={22} src={flagArm} alt="arm" /> },
-        ]}
+        options={Object.values(languages)}
       />
     </header>
   );
