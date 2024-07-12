@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <Link to={'/'}>
+      <Link to={"/"}>
         <div className="header__logo">{!isMobile ? "Arm_Dev" : "Arm_Dev"}</div>
       </Link>
 
@@ -91,11 +91,11 @@ const Header = () => {
       )}
       <Select
         onChange={(val) => changeLanguage(val)}
-        defaultValue={i18next.language}
+        defaultValue={i18next.language || "en"}
         style={{ width: "auto" }}
         size="small"
         options={[
-          { value: "en", label: <img width={22} src={flagUK} alt="uk" /> },
+          { value: "en", label: <img width={22} src={flagUK} alt="en" /> },
           { value: "arm", label: <img width={22} src={flagArm} alt="arm" /> },
         ]}
       />
