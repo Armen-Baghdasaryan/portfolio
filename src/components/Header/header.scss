@@ -1,0 +1,65 @@
+@import "/src/styles//variables.scss";
+
+.header {
+  padding: 32px 16px;
+  background: $bgColor;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  .header__logo {
+    font-size: 26px;
+    font-family: $f2;
+
+    @include media-md {
+      font-size: 18px;
+    }
+  }
+
+  .header__items {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    color: $gray;
+
+    h3 {
+      font-size: 22px;
+      cursor: pointer;
+    }
+  }
+
+  .active__item {
+    color: $white;
+  }
+
+  .ant-select-selection-item {
+    height: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.drawer__menu {
+  display: none;
+  color: $gray;
+
+  .ant-drawer-body {
+    padding: 16px;
+    background: $bgColor;
+
+    h3 {
+      margin-top: 16px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .active__item {
+      color: $white;
+    }
+  }
+}

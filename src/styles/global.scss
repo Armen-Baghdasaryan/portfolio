@@ -1,0 +1,22 @@
+@import "./variables.scss";
+@import "./reset.scss";
+@import "./fonts.scss";
+
+body {
+  box-sizing: border-box;
+  font-family: $f1;
+  font-display: swap;
+  font-size: normal;
+  background: #1e1e1e;
+  color: $white;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1472px;
+  min-height: 100vh;
+  background: $bgColor;
+  overflow: hidden;
+}
