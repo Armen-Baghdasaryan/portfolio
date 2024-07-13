@@ -18,7 +18,7 @@ const TypingText = ({ text, speed, setIsTyping }) => {
       const cursorTimeout = setTimeout(() => {
         setCursorVisible(false);
         setIsTyping(false);
-      }, 700);
+      }, 500);
 
       return () => clearTimeout(cursorTimeout);
     }
@@ -27,7 +27,7 @@ const TypingText = ({ text, speed, setIsTyping }) => {
   useEffect(() => {
     const cursorInterval = setInterval(() => {
       setShowCursor((prev) => !prev);
-    }, 300);
+    }, 200);
 
     return () => clearInterval(cursorInterval);
   }, []);

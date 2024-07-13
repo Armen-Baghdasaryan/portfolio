@@ -17,7 +17,7 @@ const Home = () => {
       <div className="home__content">
         <div className="author__info">
           <TypingText
-            speed={15}
+            speed={5}
             text={t("home.info.text")}
             setIsTyping={setIsTyping}
           />
