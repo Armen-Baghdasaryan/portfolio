@@ -36,6 +36,14 @@ const ProjectDetail = () => {
           </p>
         )}
 
+        <h4 className="detail__stack-header">
+          Main Stack -
+          {project.stack?.map((stack, index) => (
+            <span key={index} className="project__stacks">
+              {stack}
+            </span>
+          ))}
+        </h4>
         <h4 className="detail__task-header">{t("projects.majorTasks")}</h4>
 
         <ul className="detail__tasks">

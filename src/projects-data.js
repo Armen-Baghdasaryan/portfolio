@@ -11,6 +11,7 @@ export const projects = [
     name: "bookimagic.com",
     path: "https://www.bookimagic.com",
     logo: bookimagic,
+    stack: ["Vite, ", "React, ", "Redux, ", "RTK Query, ", "Ant Design"],
     crmLink: "https://app.bookimagic.com",
     tasks: [
       t("projects.bookimagic.task1"),
@@ -25,6 +26,7 @@ export const projects = [
     name: "willskill.ru",
     path: "https://willskill.ru",
     logo: willskill,
+    stack: ["Next, ", "React Query, ", "Scss"],
     tasks: [
       t("projects.willskill.task1"),
       t("projects.willskill.task2"),
@@ -48,6 +50,7 @@ export const projects = [
     name: "tutorplace.ru",
     path: "https://tutorplace.ru",
     logo: tutor,
+    stack: ["Pug, ", "Scss, ", "Java Script, ", "Gulp"],
     tasks: [
       t("projects.tutorplace.task1"),
       t("projects.tutorplace.task2"),
@@ -65,6 +68,7 @@ export const projects = [
     name: "magnit.com",
     path: "",
     logo: magnit,
+    stack: ["Vue, ", "Vuex, ", "Ant Design"],
     tasks: [
       t("projects.magnit.task1"),
       t("projects.magnit.task2"),
@@ -77,6 +81,7 @@ export const projects = [
     name: "hibad.com",
     path: "",
     logo: hibad,
+    stack: ["React, ", "Redux Toolkit, ", "Material UI"],
     tasks: [
       t("projects.hibad.task1"),
       t("projects.hibad.task2"),
