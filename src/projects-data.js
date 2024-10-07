@@ -9,7 +9,7 @@ export const projects = [
   {
     title: "bookimagic",
     name: "bookimagic.com",
-    path: "https://www.bookimagic.com",
+    path: "https://app.bookimagic.com",
     logo: bookimagic,
     stack: ["Vite, ", "React, ", "Redux, ", "RTK Query, ", "Ant Design"],
     crmLink: "https://app.bookimagic.com",

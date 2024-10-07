@@ -7,7 +7,7 @@ const ARM = {
   "projects.moreDetails": `Մանրամասներ`,
 
   // Home
-  "home.info.text": `Ես ավելի քան 3 տարվա փորձ ունեցող "frontend" ծրագրաորող եմ։ Ունեմ ինչպես հավելվածներ(CRM), այնպեղ էլ բարդ դիզայնով էջեր ստեղծելու փորձ։ Հիմնականում օգտագործել եմ՝ JavaScript, TypeScript, React JS, Next
+  "home.info.text": `Ես ավելի քան 3 տարվա փորձ ունեցող "frontend" ծրագրաորող եմ։ Ունեմ ինչպես հավելվածներ(CRM), այնպես էլ բարդ դիզայնով էջեր ստեղծելու փորձ։ Հիմնականում օգտագործել եմ՝ JavaScript, TypeScript, React JS, Next
     JS, Redux, Ant Desighn, Mui, Tailwind CSS, Bootstrap, YouTrack, Jira,
     Git, Figma. Նաև ուսումնասիրել և տիրապետում եմ՝ Angular, Node JS, React Native`,
 

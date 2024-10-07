@@ -27,14 +27,14 @@ const ProjectDetail = () => {
           </Link>
         </div>
 
-        {project.crmLink && (
+        {/* {project.crmLink && (
           <p className="detail__path-text">
             <span>Link to CRM -</span>
             <Link target="blank" to={project.crmLink}>
               {project.crmLink}
             </Link>
           </p>
-        )}
+        )} */}
 
         <h4 className="detail__stack-header">
           Main Stack -
