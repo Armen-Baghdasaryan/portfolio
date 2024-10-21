@@ -7,7 +7,7 @@ const ARM = {
   "projects.moreDetails": `Մանրամասներ`,
 
   // Home
-  "home.info.text": `Ես ավելի քան 3 տարվա փորձ ունեցող "frontend" ծրագրաորող եմ։ Ունեմ ինչպես հավելվածներ(CRM), այնպես էլ բարդ դիզայնով էջեր ստեղծելու փորձ։ Հիմնականում օգտագործել եմ՝ JavaScript, TypeScript, React JS, Next
+  "home.info.text": `Ես "web-frontend" ծրագրաորող եմ։ Ունեմ ինչպես հավելվածներ(CRM), այնպես էլ բարդ դիզայնով էջեր ստեղծելու փորձ։ Հիմնականում օգտագործել եմ՝ JavaScript, TypeScript, React JS, Next
     JS, Redux, Ant Desighn, Mui, Tailwind CSS, Bootstrap, YouTrack, Jira,
     Git, Figma. Նաև ուսումնասիրել և տիրապետում եմ՝ Angular, Node JS, React Native`,
 
@@ -31,7 +31,6 @@ const ARM = {
   "projects.willskill.task1": `Create layouts in accordance with the design`,
   "projects.willskill.task2": `Make complecated animations by using outside sources`,
   "projects.willskill.task3": `Refactore existing code`,
-  "projects.willskill.task4": `Change the logic of the payment and the registration forms`,
   "projects.willskill.task5": `Increase the speed of the initial load for pages`,
   "projects.willskill.task6": `Fix bugs`,
   "projects.willskill.task7": `Use Agile methods(Kanban) for development`,

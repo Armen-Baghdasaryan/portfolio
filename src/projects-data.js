@@ -9,7 +9,7 @@ export const projects = [
   {
     title: "bookimagic",
     name: "bookimagic.com",
-    path: "https://app.bookimagic.com",
+    path: "https://bookimagic.com",
     logo: bookimagic,
     stack: ["Vite, ", "React, ", "Redux, ", "RTK Query, ", "Ant Design"],
     crmLink: "https://app.bookimagic.com",
@@ -31,7 +31,6 @@ export const projects = [
       t("projects.willskill.task1"),
       t("projects.willskill.task2"),
       t("projects.willskill.task3"),
-      t("projects.willskill.task4"),
       t("projects.willskill.task5"),
       t("projects.willskill.task6"),
       t("projects.willskill.task7"),

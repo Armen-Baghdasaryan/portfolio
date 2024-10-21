@@ -6,7 +6,7 @@ const EN = {
   "header.navigation.contacts": "Contacts",
 
   // Home
-  "home.info.text": `I am a frontend developer with more than 3 years of experience. I have
+  "home.info.text": `I am a web developer focused on frontend. I have
           worked on desktop applications(CRM) and on complecated web layouts. I
           have experience working with JavaScript, TypeScript, React JS, Next
           JS, Redux, Ant Desighn, Mui, Tailwind CSS, Bootstrap, YouTrack, Jira,
@@ -33,7 +33,6 @@ const EN = {
   "projects.willskill.task1": `Create layouts in accordance with the design`,
   "projects.willskill.task2": `Make complecated animations by using outside sources`,
   "projects.willskill.task3": `Refactore existing code`,
-  "projects.willskill.task4": `Change the logic of the payment and the registration forms`,
   "projects.willskill.task5": `Increase the speed of the initial load for pages`,
   "projects.willskill.task6": `Fix bugs`,
   "projects.willskill.task7": `Use Agile methods(Kanban) for development`,
