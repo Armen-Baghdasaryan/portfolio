@@ -50,6 +50,20 @@
         animation-delay: 1.7s;
       }
     }
+
+    &:nth-child(7) {
+      .card__item {
+        animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        animation-delay: 2.1s;
+      }
+    }
+
+    &:nth-child(8) {
+      .card__item {
+        animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        animation-delay: 2.4s;
+      }
+    }
   }
 
   .project__card--right {
@@ -77,6 +91,20 @@
     img {
       width: 40px;
       height: 40px;
+    }
+  }
+
+  .card__item-france_ae {
+    img {
+      width: 120px;
+      height: auto;
+    }
+  }
+
+  .card__item-beaute {
+    img {
+      width: 80px;
+      height: auto;
     }
   }
 

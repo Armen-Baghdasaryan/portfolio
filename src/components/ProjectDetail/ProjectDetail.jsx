@@ -20,7 +20,7 @@ const ProjectDetail = () => {
       </header>
 
       <main className="detail__body">
-        <div className="detail__path">
+        <div className={`detail__path detail__path-${project.name}`}>
           <img src={project.logo} alt={project.name} />
           <Link target="blank" to={project.path}>
             <p className="detail__path-text">{project.path}</p>

@@ -21,12 +21,12 @@ const Projects = () => {
           <Tooltip title={t("projects.moreDetails")} color="blue">
             <div
               onClick={() => navigate(`${project.title}`, { state: project })}
-              className={`card__item ${
+              className={`card__item card__item-${project.name} ${
                 index % 2 === 1 ? "card__item--right" : ""
               }`}
             >
               <img src={project.logo} alt="logo" />
-              {project.name}
+              {project.title}
             </div>
           </Tooltip>
         </div>

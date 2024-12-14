@@ -22,6 +22,22 @@ const EN = {
   "projects.markupExamples": `Examples of markup made by me`,
   "projects.moreDetails": `Details`,
 
+  // Projects -> Beaute Tasks
+  "projects.beaute.task1": `Work on the website module in the Odoo system`,
+  "projects.beaute.task2": `Creating reusable components using QWeb templates`,
+  "projects.beaute.task3": `Website speed optimization`,
+  "projects.beaute.task4": `Refactoring of existing code`,
+  "projects.beaute.task5": `Use Agile methods(Scrum, Kanban) for development`,
+
+  // Projects -> France AE Tasks
+  "projects.france_ae.task1": `Work on the website module in the Odoo system`,
+  "projects.france_ae.task2": `Work on the eCommerce and shop modules`,
+  "projects.france_ae.task3": `Extension of the shop module functionality`,
+  "projects.france_ae.task4": `Creating reusable components using QWeb templates`,
+  "projects.france_ae.task5": `Website speed optimization`,
+  "projects.france_ae.task6": `Refactoring of existing code`,
+  "projects.france_ae.task7": `Use Agile methods(Scrum, Kanban) for development`,
+
   // Projects -> Bookimagic Tasks
   "projects.bookimagic.task1": `Took part in the creation of application structure, routing and the selection of necessary technologies`,
   "projects.bookimagic.task2": `Implemente the application logic with backend team`,

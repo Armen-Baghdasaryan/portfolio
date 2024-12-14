@@ -57,6 +57,20 @@
       }
     }
 
+    .detail__path-france_ae {
+      img {
+        min-width: 120px;
+        height: auto;
+      }
+    }
+
+    .detail__path-beaute {
+      img {
+        min-width: 80px;
+        height: auto;
+      }
+    }
+
     .detail__path-text {
       font-size: 22px;
     }
@@ -81,11 +95,23 @@
 
     @include media-sm {
       .detail__path {
-        gap: 8px;
-
         img {
           width: 20px;
           height: 20px;
+        }
+      }
+
+      .detail__path-france_ae {
+        img {
+          min-width: 80px;
+          height: auto;
+        }
+      }
+
+      .detail__path-beaute {
+        img {
+          min-width: 60px;
+          height: auto;
         }
       }
 

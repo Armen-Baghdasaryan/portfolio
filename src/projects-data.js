@@ -4,11 +4,43 @@ import willskill from "/src/assets/images/logo-willskill.jpg";
 import tutor from "/src/assets/images/logo-tutor.png";
 import magnit from "/src/assets/images/logo-magnit.png";
 import hibad from "/src/assets/images/logo-no-logo.png";
+import franceAe from "/src/assets/images/logo-france-ae.svg";
+import beaute from "/src/assets/images/logo-beaute.svg";
 
 export const projects = [
   {
-    title: "bookimagic",
-    name: "bookimagic.com",
+    title: "France Aesthetic",
+    name: "france_ae",
+    path: "https://www.france-aesthetic.fr/",
+    logo: franceAe,
+    stack: ["Python, ", "SQL, ", "QWeb, ", "JavaScript, ", "JQuery, ", "XML, ", "Bootstrap"],
+    tasks: [
+      t("projects.france_ae.task1"),
+      t("projects.france_ae.task2"),
+      t("projects.france_ae.task3"),
+      t("projects.france_ae.task4"),
+      t("projects.france_ae.task5"),
+      t("projects.france_ae.task6"),
+      t("projects.france_ae.task7"),
+    ],
+  },
+  {
+    title: "Beaute Concept",
+    name: "beaute",
+    path: "https://www.beaute-concept.ae/",
+    logo: beaute,
+    stack: ["Python, ", "SQL, ", "QWeb, ", "JavaScript, ", "JQuery, ", "XML, ", "Bootstrap"],
+    tasks: [
+      t("projects.beaute.task1"),
+      t("projects.beaute.task2"),
+      t("projects.beaute.task3"),
+      t("projects.beaute.task4"),
+      t("projects.beaute.task5"),
+    ],
+  },
+  {
+    title: "Bookimagic",
+    name: "bookimagic",
     path: "https://bookimagic.com",
     logo: bookimagic,
     stack: ["Vite, ", "React, ", "Redux, ", "RTK Query, ", "Ant Design"],
@@ -22,8 +54,8 @@ export const projects = [
     ],
   },
   {
-    title: "willskill",
-    name: "willskill.ru",
+    title: "WillSkill",
+    name: "will_skill",
     path: "https://willskill.ru",
     logo: willskill,
     stack: ["Next, ", "React Query, ", "Scss"],
@@ -45,8 +77,8 @@ export const projects = [
     ],
   },
   {
-    title: "tutorplace",
-    name: "tutorplace.ru",
+    title: "Tutorplace",
+    name: "tutor_place",
     path: "https://tutorplace.ru",
     logo: tutor,
     stack: ["Pug, ", "Scss, ", "Java Script, ", "Gulp"],
@@ -63,8 +95,8 @@ export const projects = [
     ],
   },
   {
-    title: "magnit",
-    name: "magnit.com",
+    title: "Magnit",
+    name: "magnit",
     path: "",
     logo: magnit,
     stack: ["Vue, ", "Vuex, ", "Ant Design"],
@@ -76,8 +108,8 @@ export const projects = [
     ],
   },
   {
-    title: "hibad",
-    name: "hibad.com",
+    title: "Hibad",
+    name: "hibad",
     path: "",
     logo: hibad,
     stack: ["React, ", "Redux Toolkit, ", "Material UI"],
