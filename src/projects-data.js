@@ -6,6 +6,7 @@ import magnit from "/src/assets/images/logo-magnit.png";
 import hibad from "/src/assets/images/logo-no-logo.png";
 import franceAe from "/src/assets/images/logo-france-ae.svg";
 import beaute from "/src/assets/images/logo-beaute.svg";
+import dessange from "/src/assets/images/logo-dessange.svg";
 
 export const projects = [
   {
@@ -68,6 +69,30 @@ export const projects = [
       "https://willskill.ru/promo/midjourney-operator",
       "https://willskill.ru/promo/streamer-a",
       "https://willskill.ru/webinar/cryptotrading-s-nulya/promo",
+    ],
+  },
+  {
+    title: "Dessange Armenia",
+    name: "dessange",
+    path: "https://www.dessange.am/",
+    logo: dessange,
+    stack: [
+      "Python, ",
+      "SQL, ",
+      "QWeb, ",
+      "JavaScript, ",
+      "JQuery, ",
+      "XML, ",
+      "Bootstrap",
+    ],
+    tasks: [
+      t("projects.france_ae.task1"),
+      t("projects.france_ae.task2"),
+      t("projects.france_ae.task3"),
+      t("projects.france_ae.task4"),
+      t("projects.france_ae.task5"),
+      t("projects.france_ae.task6"),
+      t("projects.france_ae.task7"),
     ],
   },
   {
